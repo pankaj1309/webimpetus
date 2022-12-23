@@ -253,7 +253,7 @@ $taxes = getResultArray("taxes", ["uuid_business_id" => session('uuid_business')
                                                                 </span></td>
                                                             <td class="td_remove" data-th="Cancel/Remove"><span class="bt-content">
                                                                     <a href="javascript:void(0)" class="removelink btn btn-danger" title="Rmove" style=""><i class="fa fa-trash"></i></a>
-                                                                    <a href="javascript:void(0)" class="cancellink btn btn-danger" style="" title="Cancel"><i class="fa fa-remove"></i></a>
+                                                                    <a href="javascript:void(0)" class="cancellink" style="" title="Cancel"><i class="fa fa-remove"></i></a>
                                                                 </span>
                                                             </td>
 
