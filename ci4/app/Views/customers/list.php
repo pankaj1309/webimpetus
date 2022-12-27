@@ -26,13 +26,18 @@
                     </td>
                     <td class="f_s_12 f_w_400  "><?= $row['acc_no'];?>
                     </td>
-                    <td class="f_s_12 f_w_400  ">
+                    <!--<td class="f_s_12 f_w_400  ">
                     <?php if($row['status'] == 1) { 
                         echo "Active";
                         }else{
                         echo  "Inactive";
                     } ?>
+                    </td>-->
+
+                    <td class="f_s_12 f_w_400 <?=$row['status']==1?'text_color_2':'text_color_1'?> ">
+                        <span class="stsSpan"><?=$row['status']==1?'Active':'Inactive'?></span>
                     </td>
+
                     <td class="f_s_12 f_w_400  ">
                     <p class="pd10"> <?= $row['email'];?></p>
                     </td>
